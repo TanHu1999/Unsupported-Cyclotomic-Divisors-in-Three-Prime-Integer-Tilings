@@ -1,0 +1,251 @@
+{
+  "arithmetic": "exact integers; Python standard library",
+  "mass_criterion": {
+    "coprime_scale_cases": 477,
+    "nonnegative_solutions_checked": 2185
+  },
+  "scope": "Finite examples of the added statements; the manuscript supplies general proofs",
+  "stabilizer_and_quotient_cases": [
+    {
+      "complement_slices_checked": 5,
+      "gcd_M_A_minus_A": 5,
+      "independent_slice_recombination": true,
+      "modified_f": false,
+      "modified_g": false,
+      "modulus": 900,
+      "primes": [
+        2,
+        3,
+        5
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 6
+    },
+    {
+      "complement_slices_checked": 5,
+      "gcd_M_A_minus_A": 5,
+      "independent_slice_recombination": true,
+      "modified_f": false,
+      "modified_g": true,
+      "modulus": 900,
+      "primes": [
+        2,
+        3,
+        5
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 3
+    },
+    {
+      "complement_slices_checked": 5,
+      "gcd_M_A_minus_A": 5,
+      "independent_slice_recombination": true,
+      "modified_f": true,
+      "modified_g": false,
+      "modulus": 900,
+      "primes": [
+        2,
+        3,
+        5
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 2
+    },
+    {
+      "complement_slices_checked": 5,
+      "gcd_M_A_minus_A": 5,
+      "independent_slice_recombination": true,
+      "modified_f": true,
+      "modified_g": true,
+      "modulus": 900,
+      "primes": [
+        2,
+        3,
+        5
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 1
+    },
+    {
+      "complement_slices_checked": 7,
+      "gcd_M_A_minus_A": 7,
+      "independent_slice_recombination": true,
+      "modified_f": false,
+      "modified_g": false,
+      "modulus": 1764,
+      "primes": [
+        2,
+        3,
+        7
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 6
+    },
+    {
+      "complement_slices_checked": 7,
+      "gcd_M_A_minus_A": 7,
+      "independent_slice_recombination": true,
+      "modified_f": false,
+      "modified_g": true,
+      "modulus": 1764,
+      "primes": [
+        2,
+        3,
+        7
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 3
+    },
+    {
+      "complement_slices_checked": 7,
+      "gcd_M_A_minus_A": 7,
+      "independent_slice_recombination": true,
+      "modified_f": true,
+      "modified_g": false,
+      "modulus": 1764,
+      "primes": [
+        2,
+        3,
+        7
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 2
+    },
+    {
+      "complement_slices_checked": 7,
+      "gcd_M_A_minus_A": 7,
+      "independent_slice_recombination": true,
+      "modified_f": true,
+      "modified_g": true,
+      "modulus": 1764,
+      "primes": [
+        2,
+        3,
+        7
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 1
+    },
+    {
+      "complement_slices_checked": 11,
+      "gcd_M_A_minus_A": 11,
+      "independent_slice_recombination": true,
+      "modified_f": false,
+      "modified_g": false,
+      "modulus": 27225,
+      "primes": [
+        3,
+        5,
+        11
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 15
+    },
+    {
+      "complement_slices_checked": 11,
+      "gcd_M_A_minus_A": 11,
+      "independent_slice_recombination": true,
+      "modified_f": false,
+      "modified_g": true,
+      "modulus": 27225,
+      "primes": [
+        3,
+        5,
+        11
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 5
+    },
+    {
+      "complement_slices_checked": 11,
+      "gcd_M_A_minus_A": 11,
+      "independent_slice_recombination": true,
+      "modified_f": true,
+      "modified_g": false,
+      "modulus": 27225,
+      "primes": [
+        3,
+        5,
+        11
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 3
+    },
+    {
+      "complement_slices_checked": 11,
+      "gcd_M_A_minus_A": 11,
+      "independent_slice_recombination": true,
+      "modified_f": true,
+      "modified_g": true,
+      "modulus": 27225,
+      "primes": [
+        3,
+        5,
+        11
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 1
+    },
+    {
+      "complement_slices_checked": 17,
+      "gcd_M_A_minus_A": 17,
+      "independent_slice_recombination": true,
+      "modified_f": false,
+      "modified_g": false,
+      "modulus": 354025,
+      "primes": [
+        5,
+        7,
+        17
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 35
+    },
+    {
+      "complement_slices_checked": 17,
+      "gcd_M_A_minus_A": 17,
+      "independent_slice_recombination": true,
+      "modified_f": false,
+      "modified_g": true,
+      "modulus": 354025,
+      "primes": [
+        5,
+        7,
+        17
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 7
+    },
+    {
+      "complement_slices_checked": 17,
+      "gcd_M_A_minus_A": 17,
+      "independent_slice_recombination": true,
+      "modified_f": true,
+      "modified_g": false,
+      "modulus": 354025,
+      "primes": [
+        5,
+        7,
+        17
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 5
+    },
+    {
+      "complement_slices_checked": 17,
+      "gcd_M_A_minus_A": 17,
+      "independent_slice_recombination": true,
+      "modified_f": true,
+      "modified_g": true,
+      "modulus": 354025,
+      "primes": [
+        5,
+        7,
+        17
+      ],
+      "primitive_quotient": true,
+      "stabilizer_order": 1
+    }
+  ],
+  "status": "passed"
+}

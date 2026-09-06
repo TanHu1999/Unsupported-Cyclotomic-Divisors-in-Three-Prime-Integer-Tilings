@@ -1,0 +1,406 @@
+{
+  "arithmetic": "exact integers; Python standard library",
+  "enumeration_900": {
+    "affine_orbit_sizes": [
+      120,
+      240
+    ],
+    "aperiodic_subsets": 874800,
+    "constant_terms": {
+      "all": 366960,
+      "period2": 146160,
+      "period3": 46200,
+      "period6": 360
+    },
+    "core_divisor_order_zeros": [
+      5,
+      6
+    ],
+    "cores_enumerated": 360,
+    "layer_choices": 36,
+    "stabilizer_counts_all_residues": {
+      "1": 874800,
+      "2": 729000,
+      "3": 229200,
+      "6": 1800
+    },
+    "stabilizer_counts_per_residue": {
+      "1": 174960,
+      "2": 145800,
+      "3": 45840,
+      "6": 360
+    },
+    "total_subsets": 1834800,
+    "two_methods_agree": true
+  },
+  "explicit_examples": {
+    "aperiodic_180": {
+      "A": {
+        "T2_orders": [
+          4,
+          5,
+          9,
+          20,
+          36,
+          45,
+          180
+        ],
+        "divisor_order_zeros": [
+          4,
+          5,
+          6,
+          9,
+          20,
+          36,
+          45,
+          180
+        ],
+        "signature": [
+          4,
+          5,
+          9
+        ],
+        "stabilizer": [
+          0
+        ]
+      },
+      "B": {
+        "T2_orders": [
+          2,
+          3,
+          6
+        ],
+        "divisor_order_zeros": [
+          2,
+          3,
+          6,
+          10,
+          12,
+          15,
+          18,
+          30,
+          60,
+          90
+        ],
+        "signature": [
+          2,
+          3
+        ],
+        "stabilizer": [
+          0
+        ]
+      },
+      "cardinalities": [
+        30,
+        6
+      ],
+      "gcd_M_A_minus_A": 1,
+      "modulus": 180,
+      "unsupported_order_checked": 6
+    },
+    "aperiodic_900": {
+      "A": {
+        "T2_orders": [
+          4,
+          9,
+          25,
+          36,
+          100,
+          225,
+          900
+        ],
+        "divisor_order_zeros": [
+          4,
+          6,
+          9,
+          20,
+          25,
+          30,
+          36,
+          45,
+          100,
+          180,
+          225,
+          900
+        ],
+        "signature": [
+          4,
+          9,
+          25
+        ],
+        "stabilizer": [
+          0
+        ]
+      },
+      "B": {
+        "T2_orders": [
+          2,
+          3,
+          5,
+          6,
+          10,
+          15,
+          30
+        ],
+        "divisor_order_zeros": [
+          2,
+          3,
+          5,
+          6,
+          10,
+          12,
+          15,
+          18,
+          20,
+          30,
+          45,
+          50,
+          60,
+          75,
+          90,
+          150,
+          180,
+          300,
+          450
+        ],
+        "signature": [
+          2,
+          3,
+          5
+        ],
+        "stabilizer": [
+          0
+        ]
+      },
+      "cardinalities": [
+        30,
+        30
+      ],
+      "gcd_M_A_minus_A": 5,
+      "modulus": 900,
+      "unsupported_order_checked": 30
+    }
+  },
+  "multiscale_cases": [
+    {
+      "A": {
+        "T2_orders": [
+          4,
+          5,
+          9,
+          20,
+          36,
+          45,
+          180
+        ],
+        "signature": [
+          4,
+          5,
+          9
+        ]
+      },
+      "B": {
+        "T2_orders": [
+          2,
+          3,
+          6
+        ],
+        "signature": [
+          2,
+          3
+        ]
+      },
+      "cardinalities": [
+        30,
+        6
+      ],
+      "modulus": 180,
+      "ordinary_product_identity": true,
+      "parameters": {
+        "e": 0,
+        "m": 1,
+        "p": 2,
+        "q": 3,
+        "r": 5
+      },
+      "unsupported_orders_checked": [
+        6
+      ]
+    },
+    {
+      "A": {
+        "T2_orders": [
+          4,
+          9,
+          25,
+          36,
+          100,
+          225,
+          900
+        ],
+        "signature": [
+          4,
+          9,
+          25
+        ]
+      },
+      "B": {
+        "T2_orders": [
+          2,
+          3,
+          5,
+          6,
+          10,
+          15,
+          30
+        ],
+        "signature": [
+          2,
+          3,
+          5
+        ]
+      },
+      "cardinalities": [
+        30,
+        30
+      ],
+      "modulus": 900,
+      "ordinary_product_identity": true,
+      "parameters": {
+        "e": 1,
+        "m": 1,
+        "p": 2,
+        "q": 3,
+        "r": 5
+      },
+      "unsupported_orders_checked": [
+        6,
+        30
+      ]
+    },
+    {
+      "A": {
+        "T2_orders": [
+          4,
+          9,
+          36,
+          125,
+          500,
+          1125,
+          4500
+        ],
+        "signature": [
+          4,
+          9,
+          125
+        ]
+      },
+      "B": {
+        "T2_orders": [
+          2,
+          3,
+          5,
+          6,
+          10,
+          15,
+          25,
+          30,
+          50,
+          75,
+          150
+        ],
+        "signature": [
+          2,
+          3,
+          5,
+          25
+        ]
+      },
+      "cardinalities": [
+        30,
+        150
+      ],
+      "modulus": 4500,
+      "ordinary_product_identity": true,
+      "parameters": {
+        "e": 2,
+        "m": 1,
+        "p": 2,
+        "q": 3,
+        "r": 5
+      },
+      "unsupported_orders_checked": [
+        6,
+        30,
+        150
+      ]
+    },
+    {
+      "A": {
+        "T2_orders": [
+          9,
+          25,
+          49,
+          225,
+          343,
+          441,
+          1225,
+          3087,
+          8575,
+          11025,
+          77175
+        ],
+        "signature": [
+          9,
+          25,
+          49,
+          343
+        ]
+      },
+      "B": {
+        "T2_orders": [
+          3,
+          5,
+          7,
+          15,
+          21,
+          35,
+          105
+        ],
+        "signature": [
+          3,
+          5,
+          7
+        ]
+      },
+      "cardinalities": [
+        735,
+        105
+      ],
+      "modulus": 77175,
+      "ordinary_product_identity": true,
+      "parameters": {
+        "e": 1,
+        "m": 2,
+        "p": 3,
+        "q": 5,
+        "r": 7
+      },
+      "unsupported_orders_checked": [
+        15,
+        105
+      ]
+    }
+  ],
+  "sampled_complements": {
+    "modulus": 900,
+    "samples": 20,
+    "seed": 20260906,
+    "stabilizer_size_distribution": {
+      "1": 20
+    },
+    "tiling_signature_T2_and_B0_divisibility": true
+  },
+  "scope": "Explicit examples, selected multiscale cases, sampled lifts, and finite counts; not a proof of general rigidity",
+  "status": "passed"
+}
